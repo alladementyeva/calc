@@ -13,6 +13,7 @@
 		CE97085F28F1C7FC00390B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE97085D28F1C7FC00390B85 /* Main.storyboard */; };
 		CE97086128F1C7FD00390B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE97086028F1C7FD00390B85 /* Assets.xcassets */; };
 		CE97086428F1C7FD00390B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE97086228F1C7FD00390B85 /* LaunchScreen.storyboard */; };
+		CE97089128F5D75000390B85 /* Christmas Snow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97089028F5D75000390B85 /* Christmas Snow.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE97086028F1C7FD00390B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE97086328F1C7FD00390B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE97086528F1C7FD00390B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE97089028F5D75000390B85 /* Christmas Snow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Christmas Snow.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				CE97085728F1C7FC00390B85 /* AppDelegate.swift */,
+				CE97088F28F5D72D00390B85 /* Font */,
 				CE97085928F1C7FC00390B85 /* SceneDelegate.swift */,
 				CE97085B28F1C7FC00390B85 /* ViewController.swift */,
 				CE97085D28F1C7FC00390B85 /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				CE97086528F1C7FD00390B85 /* Info.plist */,
 			);
 			path = calc;
+			sourceTree = "<group>";
+		};
+		CE97088F28F5D72D00390B85 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CE97089028F5D75000390B85 /* Christmas Snow.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 				CE97086428F1C7FD00390B85 /* LaunchScreen.storyboard in Resources */,
 				CE97086128F1C7FD00390B85 /* Assets.xcassets in Resources */,
 				CE97085F28F1C7FC00390B85 /* Main.storyboard in Resources */,
+				CE97089128F5D75000390B85 /* Christmas Snow.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

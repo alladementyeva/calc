@@ -22,12 +22,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         // make round buttons
-        for view in self.view.subviews as [UIView] {
-            if let btn = view as? UIButton {
-                btn.layer.cornerRadius = btn.frame.width / 2
-                btn.titleLabel?.font = UIFont(name: "Helvetica", size: 32)
-            }
-        }
+//        for view in self.view.subviews as [UIView] {
+//            if let btn = view as? UIButton {
+//                btn.layer.cornerRadius = btn.frame.width / 2
+//                btn.titleLabel?.font = UIFont(name: "Helvetica", size: 32)
+//            }
+//        }
 
         // Helvetica 48
         //resultLabel.font = UIFont(name: "Helvetica", size: 150)
